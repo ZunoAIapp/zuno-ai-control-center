@@ -220,7 +220,7 @@ ${business}`;
         d.status = "Approved — not sent";
         d.approvedAt = new Date().toISOString();
         save(drafts);
-        render();
+        render(); 
       }
     }
     if (b.dataset.action === "delete" && confirm("Delete this saved draft?")) {
