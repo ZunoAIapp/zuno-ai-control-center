@@ -1,0 +1,17 @@
+{
+  "name": "ZUNO AI Control Center",
+  "short_name": "ZUNO AI",
+  "description": "ZUNO AI business operations dashboard",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
