@@ -88,5 +88,6 @@ function download(name,content,type){const blob=new Blob([content],{type});const
 render();updateApprovalCount();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});
 </script>
+<script src="ai-assistant.js"></script>
 </body>
 </html>
